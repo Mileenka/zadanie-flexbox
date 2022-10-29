@@ -1,19 +1,17 @@
-div {
+.container, .container2 {
+  display: flex;
+  flex-wrap: wrap;
   min-height: 15rem;
   border: 1px solid rgb(73, 179, 73);
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 1rem;
 }
 
 .container2 {
-  display: flex;
-  flex-wrap: wrap;
   gap: 1px;
 }
 
